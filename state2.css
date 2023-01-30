@@ -10,6 +10,20 @@ html{
 
 body{
     background: linear-gradient(to left, #003e8a 0%, #79b3fa 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
 }
+
+
+
+
+#weather-info {
+    display: flex;
+}
+
+
 
 
