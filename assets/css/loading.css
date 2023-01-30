@@ -1,0 +1,23 @@
+.state-wrapper {
+  display: flex;
+  place-content: center;
+  place-items: center;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background: linear-gradient(#003e8a, #7cb7ff);
+}
+
+#loadingsvg {
+  animation: rotato 2s ease-in-out infinite;
+}
+
+@keyframes rotato {
+  0% {
+    rotate: 0turn;
+  }
+
+  100% {
+    rotate: 1turn;
+  }
+}
