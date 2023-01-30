@@ -3,3 +3,13 @@
   padding: 0;
   margin: 0;
 }
+
+.state-wrapper {
+  display: flex;
+  place-content: center;
+  place-items: center;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background: linear-gradient(#7cb7ff, #003e8a);
+}

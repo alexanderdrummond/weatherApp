@@ -1,0 +1,38 @@
+.day-card {
+  min-height: 3rem;
+  width: 100%;
+  background-color: hsla(218, 29%, 37%, 0.2);
+  border-radius: 1rem;
+  padding: 1rem;
+  color: #fff;
+}
+
+.state-wrapper {
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.scrollview {
+  display: flex;
+  place-items: center;
+  width: 100%;
+  background-color: hsla(218, 29%, 37%, 0.2);
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+
+.scrollview ul {
+  display: flex;
+  flex-flow: row nowrap;
+  place-items: center;
+  overflow-x: scroll;
+  list-style: none;
+  gap: 10px;
+  z-index: 100;
+  height: 3rem;
+}
+.scrollview ul li {
+  height: 1rem;
+  width: 1rem;
+}
