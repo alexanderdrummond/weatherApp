@@ -45,7 +45,10 @@ h1{
 }
 
 
-
+img {
+    width: 100%;
+    object-fit: contain;
+}
 
 #weather-info {
     max-width: 290px;
@@ -65,5 +68,15 @@ h1{
     flex-direction: column;
     margin-top: 1rem;
     font-size: 3rem;
+}
+
+
+.windspeed-contianer {
+    display: flex;
+    flex-direction: column;
+}
+
+.windspeed-contianer div {
+    display: flex;
 }
 
